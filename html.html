@@ -6,15 +6,14 @@
     <script src="script.js" defer></script>
 
 <body>
-
-
-
-        <div class="container">
-            <div class="save-list-box">
-                <input class="input" placeholder="Add a list..." />
-                <button  onclick = "createlist()"  type="button" class="savebtn">Save</button>
-        </div>
-
-
+  <button onclick = "createlist()" type="button" name="button">New List</button>
+  <div class="display" style="display:none">
+    <div class="container">
+     <div class="save-list-box">
+        <input class="input" placeholder="Add a list..." />
+        <button onclick="newlist()"type="button" class="savebtn">Save</button>
+    </div>
+  </div>
+</div>
 
 </body>
